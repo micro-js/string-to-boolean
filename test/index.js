@@ -12,6 +12,7 @@ var test = require('tape')
 test('should convert booleanish strings to booleans', function (t) {
   t.equal(toBoolean('true'), true)
   t.equal(toBoolean('false'), false)
+  t.equal(toBoolean(true), true)
   t.end()
 })
 
